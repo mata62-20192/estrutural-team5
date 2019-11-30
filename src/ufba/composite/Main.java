@@ -24,8 +24,14 @@ public class Main {
   	consorcio.addSubequipe(apple);
   	consorcio.addPessoa(torvalds);
   	
+  	Equipe arte = new Equipe("Arte");
+  	arte.addPessoa(daVinci);
+  	arte.addPessoa(knuth);
+  	arte.addSubequipe(microsoft);
+  	
     EstatisticasFinanceiras.imprimeCustoProjeto(gates);
     EstatisticasFinanceiras.imprimeCustoProjeto(apple);
     EstatisticasFinanceiras.imprimeCustoProjeto(consorcio);
+    EstatisticasFinanceiras.imprimeCustoProjeto(arte);
   }
 }

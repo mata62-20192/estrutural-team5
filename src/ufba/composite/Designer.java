@@ -5,7 +5,7 @@ public class Designer extends Pessoa {
 		this.nome = nome;
 		this.experiencia = experiencia;
 	}
-	public double getSalario() {
+	public double getCusto() {
 		return 800 * experiencia;
 	}
 }

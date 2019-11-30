@@ -5,7 +5,7 @@ public class Programador extends Pessoa {
 		this.nome = nome;
 		this.experiencia = experiencia;
 	}
-	public double getSalario() {
+	public double getCusto() {
 		return 1000 * experiencia;
 	}
 }
